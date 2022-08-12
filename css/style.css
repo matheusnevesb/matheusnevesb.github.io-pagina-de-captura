@@ -12,7 +12,7 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-div,img,h1,h2,h3,button {
+div,img,h1,h2,h3,.button {
     display: block;
     margin: auto auto;
     text-align: center;
@@ -59,7 +59,7 @@ label {
     font-size: 1.2rem;
 }
 
-button {
+.button {
     width: 100%;
     color: white;
     background-color: rgb(5, 121, 253);
@@ -70,7 +70,10 @@ button {
     margin-top: 2rem;
 }
 
-
+.button:hover {
+    transition: 1s;
+    background-color: rgb(4, 105, 221);
+}
 
 
 
