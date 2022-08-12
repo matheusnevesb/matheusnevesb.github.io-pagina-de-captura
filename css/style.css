@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+}
+
+div,img,h1,h2,h3,button {
+    display: block;
+    margin: auto auto;
+    text-align: center;
+    color: white;
+}
+
+div {
+    max-width: 37% ;
+    margin: 200px auto;
+}
+
+img {
+    width: 90px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 1rem 0 0 0;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin: 3rem 0 1.5rem 0;
+}
+
+.input {
+    width: 100%;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.checkbox {
+    height: 1.2rem;
+    width: 1.2rem;
+}
+
+label {
+    font-size: 1.2rem;
+}
+
+button {
+    width: 100%;
+    color: white;
+    background-color: rgb(5, 121, 253);
+    padding: 1rem;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+
+
+
+
+
+
+
